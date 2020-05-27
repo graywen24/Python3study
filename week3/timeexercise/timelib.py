@@ -6,7 +6,7 @@ import time
  time.ctime()
 'Wed May 20 16:58:20 2020'
 time.gmtime()
-time.struct_time(tm_year=2020, tm_mon=5, tm_mday=20, tm_hour=8, tm_min=58, tm_sec=33, tm_wday=2, tm_yday=141, tm_isdst=0)
+time.struct_time(tm_year=2020, tm_mon=5, tm_mday=20, tm_hour=8, tm_min=58, tm_sec=33, tm_wday=2, tm_yday=141, tm_isright=0)
 %Y year
 %m  month
 %B  January- December
@@ -29,4 +29,4 @@ print(res)   #2020-05-20 09:13:37
 timeStr = "2020-05-20 09:13:37"
 a = time.strptime(timeStr,"%Y-%m-%d %H:%M:%S")
 print(a)
-#time.struct_time(tm_year=2020, tm_mon=5, tm_mday=20, tm_hour=9, tm_min=13, tm_sec=37, tm_wday=2, tm_yday=141, tm_isdst=-1) 
+#time.struct_time(tm_year=2020, tm_mon=5, tm_mday=20, tm_hour=9, tm_min=13, tm_sec=37, tm_wday=2, tm_yday=141, tm_isright=-1)

@@ -22,4 +22,4 @@ if var <=0:
     print("u must input a number >0")
 else:
     res = jiechen(var)
-    print("%d 的阶乘是 %d" %(var,res))
+    print("%d的阶乘是%d" %(var,res))
