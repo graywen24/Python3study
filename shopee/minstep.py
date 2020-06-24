@@ -27,13 +27,13 @@ import random
 import os
 
 def fio(n):
-    if （n == 1 or n ==2):
+    if ( n == 1 or n ==2):
         return n
     return fio(n-1)+fio(n-2)
 
 def solve(n,m):
     # Write your code hered
-    totalSteps = fio(n)
+    fin = fio(n)
     if fin % m == 0:  
         return int(fin/m)
         #print(fin/m)
