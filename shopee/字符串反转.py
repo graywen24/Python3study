@@ -13,7 +13,7 @@ class Solution:
         """
         #s[:]=s[::-1]
         #s.reverse()
-        def helper(left,rigt):
+        def helper(left,right):
             if left < right:
                 s[left], s[right] = s[right],s[left]
                 helper(left+1, right -1)
