@@ -1,0 +1,12 @@
+#https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#installation
+# install pip3 https://www.delftstack.com/howto/python/python-install-pip3-mac/
+1) install pip3
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ 3651  ls
+ 3652  python3 get-pip.py
+
+ pip3 install boto3
+
+AKIAWX32JODLFPQO3ZKD
+
+X9i6nvcZ8+uDFgQelA/k643voECnS0XeTUNvXYiR
