@@ -7,6 +7,3 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
  pip3 install boto3
 
-AKIAWX32JODLFPQO3ZKD
-
-X9i6nvcZ8+uDFgQelA/k643voECnS0XeTUNvXYiR
