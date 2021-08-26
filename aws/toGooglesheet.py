@@ -40,13 +40,22 @@ def Export_Data_To_Sheets():
     # a dictionary
     data = json.load(f)
     print(type(data))   #list
+    print(len(data))
+    newdata = []
+
     #df = pd.read_json(data)
     for i in range(len(data)):
         for x in range(len(data[i]['PrivateIpAddresses'])):
             print(data[i]['PrivateIpAddresses'][x])   #list->dict->ip is a list-->str
+            print(newdata)
+
+
+            #print(len(data))
         for y in range(len(data[i]['PublicIpAddresses'])):
             print(data[i]['PublicIpAddresses'][y])
+            print(newdata)
 
+            #print(len(data))
         print(data[i]['VirtualPrivateCloud']['VpcId'])
     res = pd.json_normalize(data)
     #print(res)
